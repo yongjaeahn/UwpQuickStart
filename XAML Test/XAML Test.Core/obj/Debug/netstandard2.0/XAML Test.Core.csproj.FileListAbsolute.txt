@@ -1,0 +1,17 @@
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\bin\Debug\netstandard2.0\XAML Test.Core.deps.json
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\bin\Debug\netstandard2.0\XAML Test.Core.dll
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\bin\Debug\netstandard2.0\XAML Test.Core.pdb
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.AssemblyInfoInputs.cache
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.AssemblyInfo.cs
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.dll
+C:\Users\00320811\source\repos\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\bin\Debug\netstandard2.0\XAML Test.Core.deps.json
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\bin\Debug\netstandard2.0\XAML Test.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\bin\Debug\netstandard2.0\XAML Test.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.AssemblyInfoInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.AssemblyInfo.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.csproj.CoreCompileInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\XAML Test\XAML Test.Core\obj\Debug\netstandard2.0\XAML Test.Core.pdb

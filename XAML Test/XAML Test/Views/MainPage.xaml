@@ -1,0 +1,1854 @@
+﻿<Page
+    x:Class="XAML_Test.Views.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    xmlns:prismMvvm="using:Prism.Windows.Mvvm"
+    xmlns:muxc="using:Windows.UI.Xaml.Controls"
+    prismMvvm:ViewModelLocator.AutoWireViewModel="True"
+    mc:Ignorable="d" Loaded="Page_Loaded_1">
+
+    <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Grid.Row="0"
+            x:Uid="Main_Title"
+            Style="{StaticResource PageTitleStyle}" />
+        <Grid
+            Grid.Row="1" 
+            Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
+            <!--
+                The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
+                Place your content here.
+            -->
+            <!--
+            <StackPanel Orientation="Horizontal" FlowDirection="RightToLeft">
+                <TextBlock Text="Text Block" />
+
+                <Button Content="Click Me" BorderBrush="Black" BorderThickness="1" Margin="5" />
+                <Button BorderBrush="Black" BorderThickness="1" Margin="5">Click Me</Button>
+                <Button Width="100" Height="100" BorderBrush="Black" BorderThickness="1" Margin="5">
+                    <Image Source="/Assets/lock.png" />
+                </Button>
+
+                <CheckBox Content="Click Me" />
+
+                <CheckBox Width="100" Height="100">
+                    <Image Source="/Assets/lock.png" />
+                </CheckBox>
+            </StackPanel>
+            -->
+            <!--
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" Text="Text Block Text Block Text Block Text Block Text Block Text Block Text Block Text Block Text Block Text Block Text Block" />
+
+                <Button Grid.Row="1" Grid.Column="0" Content="Click Me" BorderBrush="Black" BorderThickness="1" Margin="5" />
+                <Button Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="5" >Click Me</Button>
+                <Button Grid.Row="1" Grid.Column="2" Width="100" Height="100" BorderBrush="Black" BorderThickness="1" Margin="5" >
+                    <Image Source="/Assets/lock.png"/>
+                </Button>
+
+                <CheckBox Grid.Row="2" Grid.Column="0" Content="Click Me" />
+                <CheckBox Grid.Row="2" Grid.Column="1" Width="100" Height="100">
+                    <Image Source="/Assets/lock.png" />
+                </CheckBox>
+            </Grid>
+            -->
+            <!--
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <Image Grid.Row="0" Grid.Column="0" Source="/Assets/lock.png"/>
+                <Image Grid.Row="0" Grid.Column="1" Source="/Assets/lock.png"/>
+                <Image Grid.Row="0" Grid.Column="2" Source="/Assets/lock.png"/>
+                
+                <Image Grid.Row="1" Grid.Column="0" Source="/Assets/lock.png"/>
+                <Image Grid.Row="1" Grid.Column="1" Source="/Assets/lock.png"/>
+                <Image Grid.Row="1" Grid.Column="2" Source="/Assets/lock.png"/>
+                
+                <Image Grid.Row="2" Grid.Column="0" Source="/Assets/lock.png"/>
+                <Image Grid.Row="2" Grid.Column="1" Source="/Assets/lock.png"/>
+                <Image Grid.Row="2" Grid.Column="2" Source="/Assets/lock.png"/>
+            </Grid>
+            -->
+            <!--
+            <RelativePanel>
+                <StackPanel x:Name="ButtonGrp" Margin="20">
+                    <Button Content="Click Me" BorderBrush="Black" BorderThickness="1" Margin="5" />
+                    <Button BorderBrush="Black" BorderThickness="1" Margin="5">Click Me</Button>
+                    <Button Width="100" Height="100" BorderBrush="Black" BorderThickness="1" Margin="5">
+                        <Image Source="/Assets/lock.png" />
+                    </Button>
+                </StackPanel>
+
+                <StackPanel Margin="20" RelativePanel.RightOf="ButtonGrp">
+                    <TextBlock Text="Text Block" />
+                </StackPanel>
+
+                <StackPanel Margin="20" RelativePanel.Below="ButtonGrp">
+                    <CheckBox Content="Click Me" />
+
+                    <CheckBox Width="100" Height="100">
+                        <Image Source="/Assets/lock.png" />
+                    </CheckBox>
+                </StackPanel>
+            </RelativePanel>
+            -->
+            <!--
+            <Button Height="100" Width="100">
+                <Image Source="/Assets/lock.png"/>
+                <TextBlock Text="Lock" HorizontalAlignment="Center"/>
+            </Button>
+ 
+            <Viewbox Height="200" Width="200">
+                <Border BorderBrush="Yellow" BorderThickness="15">
+                    <StackPanel>
+                        <Image Source="/Assets/lock.png"/>
+                        <TextBlock Text="Lock" HorizontalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Fill="Red" Height="10" Width="57"/>
+                            <Rectangle Fill="Green" Height="10" Width="57"/>
+                            <Rectangle Fill="Blue" Height="10" Width="57"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Viewbox>
+            <Viewbox Height="100" Width="200" Stretch="Fill">
+                <Border BorderBrush="Yellow" BorderThickness="15">
+                    <StackPanel>
+                        <Image Source="/Assets/lock.png"/>
+                        <TextBlock Text="Lock" HorizontalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Fill="Red" Height="10" Width="57"/>
+                            <Rectangle Fill="Green" Height="10" Width="57"/>
+                            <Rectangle Fill="Blue" Height="10" Width="57"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Viewbox>
+            <Viewbox Height="200" Width="100" Stretch="Fill">
+                <Border BorderBrush="Yellow" BorderThickness="15">
+                    <StackPanel>
+                        <Image Source="/Assets/lock.png"/>
+                        <TextBlock Text="Lock" HorizontalAlignment="Center"/>
+                        <StackPanel Orientation="Horizontal">
+                            <Rectangle Fill="Red" Height="10" Width="57"/>
+                            <Rectangle Fill="Green" Height="10" Width="57"/>
+                            <Rectangle Fill="Blue" Height="10" Width="57"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+            </Viewbox>
+            -->
+            <!--
+            <ScrollViewer HorizontalScrollBarVisibility="Visible">
+                <Ellipse Width="1200" Height="700" Fill="Magenta"/>
+            </ScrollViewer>
+            -->
+            <!--
+            <StackPanel>
+                <TextBox Name="sourceTextBox" Text="Source Text Value"/>
+                <TextBox Text="{Binding Path=Text, ElementName=sourceTextBox, Mode=TwoWay}"/>
+                <Ellipse Stroke="Blue" Width="100" Height="{Binding Path=ActualWidth, RelativeSource={RelativeSource Mode=Self}}"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <Button Height="300" Width="300">
+                    <Button.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="White" Offset="0"/>
+                            <GradientStop Color="Blue" Offset="1" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+                <Button Height="300" Width="300">
+                    <Button.Background>
+                        <LinearGradientBrush>
+                            <GradientStop Color="White" Offset="0"/>
+                            <GradientStop Color="Blue" Offset="1" />
+                        </LinearGradientBrush>
+                    </Button.Background>
+                </Button>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <LinearGradientBrush x:Key="blueDiagonalGradation">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </StackPanel.Resources>
+
+                <Button Height="300" Width="300" Background="{StaticResource blueDiagonalGradation}"/>
+                <Button Height="300" Width="300" Background="{StaticResource blueDiagonalGradation}"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <Button Background="Blue" Height="20" Width="50" Margin="1"/>
+                <Button Background="Blue" Height="20" Width="50" Margin="1"/>
+                <Button Background="Blue" Height="20" Width="50" Margin="1"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style x:Key="smallBlueButton" TargetType="Button">
+                        <Setter Property="Background" Value="Blue"></Setter>
+                        <Setter Property="Height" Value="20"></Setter>
+                        <Setter Property="Width" Value="50"></Setter>
+                        <Setter Property="Margin" Value="1"></Setter>
+                    </Style>
+                </StackPanel.Resources>
+
+                <Button Style="{StaticResource smallBlueButton}"/>
+                <Button/>
+                <Button Style="{StaticResource smallBlueButton}"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Background" Value="Blue"></Setter>
+                        <Setter Property="Height" Value="20"></Setter>
+                        <Setter Property="Width" Value="50"></Setter>
+                        <Setter Property="Margin" Value="1"></Setter>
+                    </Style>
+                </StackPanel.Resources>
+
+                <Button/>
+                <Button/>
+                <Button/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style x:Key="smallBlueButton" TargetType="Button">
+                        <Setter Property="Background" Value="Blue"></Setter>
+                        <Setter Property="Height" Value="20"></Setter>
+                        <Setter Property="Width" Value="50"></Setter>
+                        <Setter Property="Margin" Value="1"></Setter>
+                    </Style>
+                    <Style x:Key="smallBlueButtonBordered" TargetType="Button" BasedOn="{StaticResource smallBlueButton}">
+                        <Setter Property="BorderBrush" Value="Black"></Setter>
+                    </Style>
+                </StackPanel.Resources>
+
+                <Button Style="{StaticResource smallBlueButton}"/>
+                <Button Style="{StaticResource smallBlueButtonBordered}"/>
+                <Button Style="{StaticResource smallBlueButton}"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel Tapped="StackPanel_Tapped">
+                <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="사각형의 크기를 키우려면 사각형을 손가락으로 탭하거나 Mouse의 왼쪽 버튼으로 클릭하세요."/>
+                <Rectangle Width="100" Height="50" HorizontalAlignment="Left" Fill="Red" Tapped="Rectangle_Tapped"/>
+                <Rectangle Width="100" Height="50" HorizontalAlignment="Left" Fill="Green"/>
+                <Rectangle Width="100" Height="50" HorizontalAlignment="Left" Fill="Blue"/>
+            </StackPanel>
+            -->
+            <!--
+            <Button Content="Click Me" VerticalAlignment="Top" Command="{Binding clickMeButtonCommand}"/>
+            -->
+            <!--
+            <Button Content="Click Me" VerticalAlignment="Top" Width="100" Height="50">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Ellipse Fill="Magenta"/>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            -->
+            <!--
+            <Button Content="Click Me" VerticalAlignment="Top" Width="100" Height="50">
+                <Button.Template>
+                    <ControlTemplate>
+                        <Grid>
+                            <Ellipse Fill="Magenta"/>
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Grid>
+                    </ControlTemplate>
+                </Button.Template>
+            </Button>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <Grid>
+                                        <Ellipse Fill="Magenta"/>
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <Button Content="1st Button" VerticalAlignment="Top" Width="100" Height="50" Margin="0 0 0 5"/>
+                <Button Content="2nd Button" VerticalAlignment="Top" Width="150" Height="75"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Style TargetType="Button">
+                        <Setter Property="Template">
+                            <Setter.Value>
+                                <ControlTemplate>
+                                    <Grid>
+                                        <Ellipse Fill="{Binding Path=Background, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+                                        <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                    </Grid>
+                                </ControlTemplate>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </StackPanel.Resources>
+                <Button Content="1st Button" VerticalAlignment="Top" Width="100" Height="50" Margin="0 0 0 5" Background="Brown"/>
+                <Button Content="2nd Button" VerticalAlignment="Top" Width="150" Height="75" Background="Magenta"/>
+            </StackPanel>
+            -->
+            <!--
+            <ProgressBar Width="100" Height="25" Value="4" Maximum="10">
+                <ProgressBar.Template>
+                    <ControlTemplate>
+                        <Grid>
+                            <Rectangle Name="PART_Track" Fill="LightGray" Stroke="Black"/>
+                            <Rectangle Name="PART_Indicator" HorizontalAlignment="Left" Width="10" Height="20" Margin="2" RadiusX="5" RadiusY="5" Fill="White" Stroke="Blue"/>
+                        </Grid>
+                    </ControlTemplate>
+                </ProgressBar.Template>
+            </ProgressBar>
+            -->
+            <!--<Button Content="Button" Click="ClickEventHandle"/>-->
+            <!--<Button Click="Button_Click">
+                <Image Source="/Assets/lock.png" Stretch="None"/>
+            </Button>-->
+            <!--<Button Style="{StaticResource AccentButtonStyle}" Content="Button"/>-->
+            <!--<CheckBox Content="두상태 CheckBox"
+                        Unchecked="UncheckedEventHandler"
+                        Checked="CheckedEventHandler" />-->
+            <!--<CheckBox Content="세상태 CheckBox"
+                        IsThreeState="True"
+                        Unchecked="UncheckedEventHandler"
+                        Checked="CheckedEventHandler"
+                        Indeterminate="IndeterminateEventHandler" />-->
+            <!--
+            <ScrollViewer>
+                <StackPanel>
+                    <Ellipse Width="150" Height="50" Margin="10">
+                        <Ellipse.Fill>
+                            <SolidColorBrush Color="{x:Bind Path=myColorPicker.Color, Mode=OneWay}"/>
+                        </Ellipse.Fill>
+                    </Ellipse>
+                        <muxc:ColorPicker
+                                x:Name="myColorPicker"
+                                IsMoreButtonVisible="False"
+                                IsColorSliderVisible="True"
+                                IsColorChannelTextInputVisible="True"
+                                IsHexInputVisible="True"
+                                IsAlphaEnabled="True"
+                                IsAlphaSliderVisible="True"
+                                IsAlphaTextInputVisible="True" />
+                </StackPanel>
+            </ScrollViewer>
+            -->
+            <!--<ComboBox SelectionChanged="SelectionChangedEventHanlder"
+                      Header="색상"
+                      PlaceholderText="색상을 고르세요."
+                      Width="200">
+                <x:String>빨강</x:String>
+                <x:String>파랑</x:String>
+                <x:String>초록</x:String>
+            </ComboBox>-->
+            <!--<muxc:DropDownButton Content="Email">
+                <muxc:DropDownButton.Flyout>
+                    <MenuFlyout Placement="Bottom">
+                        <MenuFlyoutItem Text="Send"/>
+                        <MenuFlyoutItem Text="Reply"/>
+                        <MenuFlyoutItem Text="Reply All"/>
+                    </MenuFlyout>
+                </muxc:DropDownButton.Flyout>
+            </muxc:DropDownButton>-->
+            <!--<HyperlinkButton Content="홈페이지"
+                             NavigateUri="http://www.company.com" />-->
+            <!--<StackPanel>
+                <TextBlock Text="색상선택:"
+                           Style="{ThemeResource BaseTextBlockStyle}"/>
+                <RadioButton GroupName="ColorOptions"
+                             x:Name="OptionRadioButtonRed"
+                             Content="빨강"
+                             IsChecked="True"
+                             Checked="ColorOptionCheckedEventHandler"/>
+                <RadioButton GroupName="ColorOptions"
+                             x:Name="OptionRadioButtonBreen"
+                             Content="초록"
+                             Checked="ColorOptionCheckedEventHandler"/>
+                <RadioButton GroupName="ColorOptions"
+                             x:Name="OptionRadioButtonBlue"
+                             Content="파랑"
+                             Checked="ColorOptionCheckedEventHandler"/>
+            </StackPanel>-->
+            <!--<StackPanel>
+                <muxc:RatingControl PlaceholderValue="1" />
+                <muxc:RatingControl PlaceholderValue="3" />
+                <muxc:RatingControl PlaceholderValue="5" />
+            </StackPanel>-->
+            <!--<StackPanel>
+                <Slider Width="200" Value="0"/>
+                <Slider Width="200"
+                        Value="50"/>
+                <Slider Width="200"
+                        Minimum="500"
+                        Maximum="1000"
+                        Value="1000"/>
+                <Slider Height="150"
+                        Orientation="Vertical"
+                        HorizontalAlignment="Center"
+                        StepFrequency="10"
+                        TickFrequency="20"
+                        TickPlacement="Outside"
+                        Value="50"/>
+            </StackPanel>-->
+            <!--<StackPanel>
+                <ToggleSwitch/>
+                <ToggleSwitch Header="점멸신호"
+                              OffContent="소등"
+                              OnContent="점등"
+                              IsOn="True" />
+            </StackPanel>-->
+            <!--<StackPanel>
+                <PasswordBox Width="300"
+                             Header="암호"
+                             PlaceholderText="Enter your password"/>
+                <PasswordBox Width="300"
+                             Header="암호확인"
+                             PasswordChar="#" />
+            </StackPanel>-->
+            <!--
+            <StackPanel>
+                <TextBlock Text="TextBlock"/>
+                <TextBlock Text="Font 지정 TextBlock"
+                           FontFamily="Arial" FontSize="14" FontStretch="Expanded"
+                           FontStyle="Italic" FontWeight="Bold" Foreground="CornflowerBlue"
+                           TextWrapping="WrapWholeWords"
+                           CharacterSpacing="200" />
+            </StackPanel>
+            -->
+            <!--
+            <TextBlock>
+                <Run Foreground="Green" Text="Run 요소 안의 TextBlock"/>
+                <LineBreak/>
+                <Span FontFamily="Times New Roman">
+                    <Bold>강조</Bold>,<Italic>이탤릭</Italic>,<Underline>밑줄</Underline>,
+                </Span>
+                <LineBreak/>
+                <Span TextDecorations="None">TextDecoration None</Span><LineBreak/>
+                <Span TextDecorations="Strikethrough">TextDecoration Strikethrough</Span>
+                <LineBreak/>
+                <Span TextDecorations="Underline">TextDecoration Underline</Span>
+                <LineBreak/>
+                <Span TextDecorations="Strikethrough,Underline">
+                    TextDecoration Strikethrough,Underline
+                </Span>
+            </TextBlock>
+            -->
+            <!--
+            <StackPanel>
+                <RichTextBlock>
+                    <Paragraph FontFamily="Times New Roman"
+                               Foreground="DarkGray">
+                        회색 Paragraph
+                    </Paragraph>
+                    <Paragraph>
+                        <Bold>강조</Bold> ,
+                        <Italic>이탤릭</Italic> ,
+                        <Underline>밑줄</Underline> ,
+                    </Paragraph>
+                </RichTextBlock>
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <RichTextBlock Grid.Column="0"
+                                   OverflowContentTarget="{x:Bind firstOverflowContainer}"
+                                   TextAlignment="Start"
+                                   Margin="12,0"
+                                   Height="300">
+                        <Paragraph>
+                            UWP Universal Windows Platform는 Microsoft사가 스마트폰 시장에서 안드로이드폰과 아이폰에 밀려 점유율을 확대하지 못함에 따라 그리고 UWP로 개발된 프로그램은 Windows 10 이외의 OS Operating System/운영체제에서는 수행되지 않는다는 단점에 따라 기존의 Windows PC Personal Computer용 개발도구들과 차별화되지 못한 채 널리 활용되지 못하였습니다. 그러나 최근 Windows 10 OS가 Windows PC에서 차지하는 비중이 커지고 Windows 7 OS의 지원이 2020년 1월 14일에 종료됨에 따라 Windows 10 OS의 표준 개발 도구인 UWP가 관심을 끌게 되었습니다. 아래 그림에서 PC 점유율 변화 추이를 보면 이미 Windows 10 OS를 설치한 PC의 수량이 Windows 7 OS를 설치한 PC의 수량을 넘어선 것을 알 수 있는데 결국 머지 않은 시일 안에 PC에서 수행되는 프로그램은 Windows 10 OS의 표준 개발 방식으로 전환될 것이라는 것을 의미합니다. 이제는 Windows OS 계열의 표준 프로그램 개발 도구로 Win32 API Application Program Interface나 Windows Forms를 넘어서 UWP를 배울 시점이 되었습니다.
+                            나무위키는 크로스 플랫폼 Cross Platform을 “하나 이상의 플랫폼에서 실행 가능한 소프트웨어라는 것을 뜻하는 용어. 예시로, 한 앱이 안드로이드와 아이폰에서 기능상, 외관상의 차이 없이 똑같게 실행된다면 그 앱은 크로스 플랫폼으로 개발된 것이라 볼 수 있다.”로 정의하고 있는데 UWP는 Windows 10 OS가 탑재된 장비에서만 동작하지만 PC와 스마트폰과 태블릿 및 IoT Internet Of Things 기기를 아우르기 때문에 크로스 플랫폼으로 볼 수 있습니다.
+                        </Paragraph>
+                    </RichTextBlock>
+                    <RichTextBlockOverflow x:Name="firstOverflowContainer"
+                                           OverflowContentTarget="{x:Bind secondOverflowContainer}"
+                                           Grid.Column="1"
+                                           Margin="12,0"
+                                           Height="300"/>
+                    <RichTextBlockOverflow x:Name="secondOverflowContainer"
+                                           Grid.Column="2"
+                                           Margin="12,0"
+                                           Height="300"/>
+                </Grid>
+            </StackPanel>
+            -->            
+            <!--
+            <StackPanel>
+                <TextBox x:Name="TextBoxName"
+                         Header="이름"
+                         Loaded="Page_Loaded"
+                         KeyDown="TextBoxName_KeyDown"/>
+            </StackPanel>-->
+            <!--<CalendarDatePicker x:Name="CalendarDatePickerEnteredDate"
+                                PlaceholderText="날짜선택"
+                                Header="입사일자"
+                                Loaded="CalendarDatePickerEnteredDate_Loaded"
+                                DateChanged="CalendarDatePickerEnteredDate_DateChanged"/>-->
+            <!--<CalendarView x:Name="CalendarViewEnteredDate"
+                          SelectionMode="Single"
+                          IsGroupLabelVisible="True"
+                          IsOutOfScopeEnabled="True"
+                          Language="ko"
+                          CalendarIdentifier="GregorianCalendar"
+                          Loaded="CalendarViewEnteredDate_Loaded"
+                          SelectedDatesChanged="SelectedDatesChangedEventHandler"/>-->
+            <!--<DatePicker x:Name="DatePickerEnteredDate"
+                        Header="입사일자"
+                        YearFormat="{}{year.full(4)}"
+                        MonthFormat="{}{month.integer(2)}"
+                        DayFormat="{}{day.integer(2)} ({dayofweek.abbreviated})"
+                        Loaded="DatePickerEnteredDate_Loaded"
+                        DateChanged="DatePickerEnteredDate_DateChanged" />-->
+            <!--<StackPanel Loaded="StackPanel_Loaded">
+                <TimePicker x:Name="TimePickerDepartureTime"
+                            Header="출발시간"
+                            MinuteIncrement="15"
+                            TimeChanged="TimePickerDepartureTime_TimeChanged" />
+                <TimePicker x:Name="TimePickerArrivalTime"
+                            Header="도착시간"
+                            ClockIdentifier="24HourClock" />
+            </StackPanel>-->
+            <!--<Button Content="Show ContentDialog"
+                    Tapped="TappedEventHandler"/>-->
+            <!--<StackPanel Orientation="Horizontal">
+                <AppBarButton Icon="OpenFile"
+                              Label="열기"/>
+                <AppBarSeparator />
+                <AppBarButton Icon="Save"
+                              Label="저장"/>
+                <AppBarSeparator />
+                <AppBarButton Label="종료">
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="/Assets/StoreLogo.png"/>
+                    </AppBarButton.Icon>
+                </AppBarButton>
+                <AppBarSeparator />
+                <AppBarToggleButton Icon="DisableUpdates"
+                                    Label="수정금지"/>
+            </StackPanel>-->
+            <!--
+            <Pivot Title="Pivot Tab View">
+                <PivotItem Header="Tab View 1">
+                    <StackPanel>
+                        <TextBlock Text="내용 1"/>
+                    </StackPanel>
+                </PivotItem>
+                <PivotItem Header="Tab View 2">
+                    <StackPanel>
+                        <TextBlock Text="내용 2"/>
+                    </StackPanel>
+                </PivotItem>
+            </Pivot>
+            -->
+            <!--
+            <FlipView MaxWidth="400" Height="270">
+                <Image Source="/Assets/LockScreenLogo.scale-200.png"/>
+                <Image Source="/Assets/SplashScreen.scale-200.png"/>
+                <Image Source="/Assets/lock.png"/>
+                <Image Source="/Assets/Square150x150Logo.scale-200.png"/>
+                <Image Source="/Assets/Square44x44Logo.scale-200.png"/>
+            </FlipView>-->
+            <!--<StackPanel>
+                <TextBlock Text="파일 다운 로드 중 (ProgressBar)"/>
+                <ProgressBar Width="130" IsIndeterminate="True" />
+                <TextBlock Text="파일 다운 로드 중 (ProgressRing) "/>
+                <ProgressRing IsActive="True" />
+                <TextBlock Text="파일 다운 로드 중 (ProgressBar) "/>
+                <ProgressBar x:Name="fileDownloadProgressBar"
+                             Width="130" Loaded="fileDownloadProgressBar_Loaded" />
+            </StackPanel>-->
+            <!--<StackPanel>
+                <Button Content="Show Tooltip"
+                    ToolTipService.ToolTip="Tool Tip"/>
+                <Image Source="/Assets/Lock.png"
+                       HorizontalAlignment="Left"
+                       Width="150"
+                       Height="100"
+                       ToolTipService.ToolTip="Tool Tip"/>
+            </StackPanel>-->
+            <!--<Button Content="Click" Click="Button_Click">
+                <ToolTipService.ToolTip>
+                    <Ellipse Width="10" Height="20" Fill="Green"/>
+                </ToolTipService.ToolTip>
+            </Button>-->
+            <!--
+            <StackPanel>
+                <Ellipse x:Name="colorEllipse"
+                           Width="200"
+                           Height="30"
+                           Stroke="Black"/>
+                <ListBox x:Name="colorListBox"
+                         Width="200"
+                         Height="100"
+                         BorderBrush="Black"
+                         BorderThickness="1"
+                         SelectionMode="Single"
+                         SelectionChanged="colorListBox_SelectionChanged">
+                    <x:String>Blue</x:String>
+                    <x:String>Green</x:String>
+                    <x:String>Red</x:String>
+                    <x:String>Yellow</x:String>
+                </ListBox>
+            </StackPanel>-->
+            <!--
+            <StackPanel>
+                <Ellipse x:Name="colorEllipse"
+                           Width="200"
+                           Height="30"
+                           Stroke="Black"/>
+                <ListBox x:Name="colorListBox"
+                         Width="200"
+                         Height="180"
+                         BorderBrush="Black"
+                         BorderThickness="1"
+                         SelectionMode="Multiple"
+                         SelectionChanged="colorListBox_SelectionChanged">
+                    <x:String>Blue</x:String>
+                    <x:String>Green</x:String>
+                    <x:String>Red</x:String>
+                    <x:String>Yellow</x:String>
+                </ListBox>
+                <Ellipse x:Name="colorEllipseLower"
+                           Width="200"
+                           Height="30"
+                           Stroke="Black"/>
+            </StackPanel>-->
+            <!--
+            <ListBox>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <TextBlock>품  명 : 바나나</TextBlock>
+                        <TextBlock>금  액 : 1,000원</TextBlock>
+                        <TextBlock>원산지 : 진주</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <TextBlock>품  명 : 자몽</TextBlock>
+                        <TextBlock>금  액 : 2,000원</TextBlock>
+                        <TextBlock>원산지 : 미국(플로리다)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
+                        <TextBlock>품  명 : 참외</TextBlock>
+                        <TextBlock>금  액 : 1,000원</TextBlock>
+                        <TextBlock>원산지 : 성주</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </ListBox>-->
+            <!--
+            <GridView CanDragItems="True" CanReorderItems="True" AllowDrop="True">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="150">
+                        <TextBlock>품  명 : 바나나</TextBlock>
+                        <TextBlock>금  액 : 1,000원</TextBlock>
+                        <TextBlock>원산지 : 진주</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="150">
+                        <TextBlock>품  명 : 자몽</TextBlock>
+                        <TextBlock>금  액 : 2,000원</TextBlock>
+                        <TextBlock>원산지 : 미국(플로리다)</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+                    <StackPanel Orientation="Vertical" VerticalAlignment="Center" Width="150">
+                        <TextBlock>품  명 : 참외</TextBlock>
+                        <TextBlock>금  액 : 1,000원</TextBlock>
+                        <TextBlock>원산지 : 성주</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </GridView>-->
+            <!--
+            <GridView>
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsWrapGrid MaximumRowsOrColumns="2" Orientation="Vertical"/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+
+                <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+            </GridView>-->
+            <!--
+            <GridView>
+                <GridView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <ItemsStackPanel/>
+                    </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+
+                <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/바나나.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/자몽.jpg" Width="200" Height="150" Stretch="Fill"/>
+                <Image Source="/Assets/참외.png" Width="200" Height="150" Stretch="Fill"/>
+            </GridView>-->
+            <!--
+            <StackPanel Name="grid">
+                <TextBlock>Name:</TextBlock>
+                <TextBox Name="nameTextBox">
+                    <TextBox.Text>
+                        <Binding Path="Name" Mode="TwoWay"/>
+                    </TextBox.Text>
+                </TextBox>
+                <TextBlock>Age:</TextBlock>
+                <TextBox Name="ageTextBox" Text="{Binding Path=Age, Mode=TwoWay}"></TextBox>
+                <Button Name="birhdayButton" Click="birhdayButton_Click_DataBinding">Birthday</Button>
+            </StackPanel>-->
+            <!--
+            <StackPanel xmlns:local="using:WithBinding">
+                <StackPanel.Resources>
+                    <local:Person x:Key="Tom" Name="Tom22" Age="22"></local:Person>
+                    <local:Person x:Key="John" Name="John33" Age="33"></local:Person>
+                </StackPanel.Resources>
+                <StackPanel DataContext="{StaticResource Tom}">
+                    <TextBlock>Name:</TextBlock>
+                    <TextBox Name="nameTextBox">
+                        <TextBox.Text>
+                            <Binding Path="Name" Mode="TwoWay" Source="{StaticResource Tom}">
+                            </Binding>
+                        </TextBox.Text>
+                    </TextBox>
+                    <TextBlock>Age:</TextBlock>
+                    <TextBox Name="ageTextBox" Text="{Binding Path=Age, Mode=TwoWay, Source={StaticResource John}}"/>
+                    <Button Name="birhdayButton" Click="birhdayButton_Click_DataBinding">Birthday</Button>
+                </StackPanel>
+            </StackPanel>
+            -->
+            <!--
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                
+                <MenuBar Grid.Column="0">
+                    <MenuBarItem Title="파일">
+                        <MenuBarItem.KeyboardAccelerators>
+                            <KeyboardAccelerator Modifiers="Control" Key="F"/>
+                        </MenuBarItem.KeyboardAccelerators>
+                        <MenuFlyoutItem Text="새로 만들기">
+                            <MenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Modifiers="Control" Key="N"/>
+                            </MenuFlyoutItem.KeyboardAccelerators>
+                        </MenuFlyoutItem>
+                        <MenuFlyoutItem Text="열기...">
+                            <MenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Modifiers="Control" Key="O"/>
+                            </MenuFlyoutItem.KeyboardAccelerators>
+                        </MenuFlyoutItem>
+                        <MenuFlyoutItem Text="저장">
+                            <MenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Modifiers="Control" Key="S"/>
+                            </MenuFlyoutItem.KeyboardAccelerators>
+                        </MenuFlyoutItem>
+                        <MenuFlyoutItem Text="끝내기">
+                            <MenuFlyoutItem.KeyboardAccelerators>
+                                <KeyboardAccelerator Modifiers="Control" Key="X"/>
+                            </MenuFlyoutItem.KeyboardAccelerators>
+                        </MenuFlyoutItem>
+                    </MenuBarItem>
+                </MenuBar>
+            </Grid>-->
+            <!--
+            <StackPanel x:Name="mainStackPanel" Tapped="mainStackPanel_Tapped">
+                <Ellipse Width="40" Height="20" Fill="Green"/>
+                <Rectangle Width="40" Height="20" Fill="Cyan"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel x:Name="mainStackPanel" Tapped="mainStackPanel_Tapped">
+                <Ellipse Width="40" Height="20" Fill="Green">
+                    <Ellipse.RenderTransform>
+                        <ScaleTransform ScaleX="2"/>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Rectangle Width="40" Height="20" Fill="Cyan">
+                    <Rectangle.RenderTransform>
+                        <RotateTransform Angle="90"/>
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel x:Name="mainStackPanel" Tapped="mainStackPanel_Tapped">
+                <TextBlock Text="SkewTransform AngleX=30" HorizontalAlignment="Center">
+                    <TextBlock.RenderTransform>
+                        <SkewTransform AngleX="30"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+                <TextBlock Text="SkewTransform AngleY=10" HorizontalAlignment="Center">
+                    <TextBlock.RenderTransform>
+                        <SkewTransform AngleY="10"/>
+                    </TextBlock.RenderTransform>
+                </TextBlock>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel x:Name="mainStackPanel" Tapped="mainStackPanel_Tapped">
+                <Ellipse Width="40" Height="20" Fill="Green">
+                    <Ellipse.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform ScaleX="2"/>
+                            <RotateTransform Angle="45"/>
+                            <TranslateTransform X="10"/>
+                        </TransformGroup>
+                    </Ellipse.RenderTransform>
+                </Ellipse>
+                <Rectangle Width="40" Height="20" Fill="Cyan">
+                    <Rectangle.RenderTransform>
+                        <CompositeTransform ScaleX="2" Rotation="45" TranslateY="10" />
+                    </Rectangle.RenderTransform>
+                </Rectangle>
+            </StackPanel>
+            -->
+            <!--
+            <Ellipse Width="100" Height="50"
+                     Fill="Green"
+                     Stroke="Black" StrokeThickness="5" />-->
+            <!--
+            <StackPanel>
+                <Line Stroke="Red"
+                      X1="0" Y1="10" X2="370" Y2="10" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="30" Y1="20" X2="400" Y2="20" />
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="10" X2="370" Y2="10" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="10" X2="370" Y2="10"
+                      StrokeStartLineCap="Round" StrokeEndLineCap="Round" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="10" X2="370" Y2="10"
+                      StrokeStartLineCap="Square" StrokeEndLineCap="Square" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="10" X2="370" Y2="10"
+                      StrokeStartLineCap="Triangle" StrokeEndLineCap="Triangle" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="10" X2="370" Y2="10"
+                      StrokeStartLineCap="Flat" StrokeEndLineCap="Flat" />
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="20" X2="370" Y2="20"
+                      StrokeDashArray="1" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="30" X2="370" Y2="30"
+                      StrokeDashArray="5 5 1 5" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="30" X2="370" Y2="30"
+                      StrokeDashArray="3 1 3 1" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="30" X2="370" Y2="30"
+                      StrokeDashArray="3 1 1 1" />
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="20" X2="370" Y2="20"
+                      StrokeDashArray="2" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="20" X2="370" Y2="20"
+                      StrokeDashArray="2" StrokeDashCap="Round" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="20" X2="370" Y2="20"
+                      StrokeDashArray="2" StrokeDashCap="Square" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="20" X2="370" Y2="20"
+                      StrokeDashArray="2" StrokeDashCap="Triangle" />
+                <Line Stroke="Green" StrokeThickness="10"
+                      X1="0" Y1="20" X2="370" Y2="20"
+                      StrokeDashArray="2" StrokeDashCap="Flat" />
+            </StackPanel>
+            -->
+            <!--
+            <Border BorderBrush="Red" BorderThickness="5">
+                <Canvas>
+                    <Rectangle Width="100" Height="50"
+                               Fill="Green"
+                               Stroke="Black" StrokeThickness="10"
+                               StrokeLineJoin="Round"
+                               Canvas.Left="10" Canvas.Top="20" Canvas.ZIndex="0"/>
+                </Canvas>
+            </Border>
+            -->
+
+            <Border BorderBrush="Red" BorderThickness="5">
+                <Canvas>
+                    <Rectangle Width="100" Height="50"
+                               Fill="Green"
+                               Stroke="Black" StrokeThickness="10"
+                               StrokeLineJoin="Round"
+                               Canvas.Left="10" Canvas.Top="20" Canvas.ZIndex="0"/>
+                    <Rectangle Width="50" Height="50"
+                               Fill="Blue"
+                               Stroke="Black" StrokeThickness="10"
+                               StrokeLineJoin="Round"
+                               Canvas.Left="10" Canvas.Top="20" Canvas.ZIndex="1"/>
+                </Canvas>
+            </Border>
+            <!--
+            <Polyline Stroke="Red"
+                      Points="0,0 0,50 50,50" />-->
+            <!--
+            <Polygon Stroke="Red"
+                      Points="0,0 0,50 50,50" />-->
+            <!--
+            <Path Fill="Green"
+                   Stroke="Black" StrokeThickness="10" 
+                   StrokeLineJoin="Round">
+                <Path.Data>
+                    <RectangleGeometry Rect="0,0,100,50"/>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Fill="Green"
+                   Stroke="Black"
+                   StrokeLineJoin="Round">
+                <Path.Data>
+                    <RectangleGeometry Rect="0,0,100,50"/>
+                </Path.Data>
+            </Path>
+            <Path Fill="Green"
+                   Stroke="Black"
+                   StrokeLineJoin="Round">
+                <Path.Data>
+                    <RectangleGeometry Rect="10,10,60,30"/>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Fill="Green"
+                   Stroke="Black"
+                   StrokeLineJoin="Round">
+                <Path.Data>
+                    <GeometryGroup>
+                        <RectangleGeometry Rect="0,0,100,50"/>
+                        <RectangleGeometry Rect="10,10,60,30"/>
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Fill="Green"
+                  Stroke="Black"
+                  StrokeLineJoin="Round">
+                <Path.Data>
+                    <GeometryGroup FillRule="Nonzero">
+                        <RectangleGeometry Rect="0,0,100,50"/>
+                        <RectangleGeometry Rect="10,10,60,30"/>
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Fill="Green"
+                  Stroke="Black"
+                  StrokeLineJoin="Round">
+                <Path.Data>
+                    <GeometryGroup FillRule="EvenOdd">
+                        <RectangleGeometry Rect="0,0,100,50"/>
+                        <RectangleGeometry Rect="10,10,60,30"/>
+                    </GeometryGroup>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Polygon Stroke="Red"
+                     Points="60,10 10,110 110,45 10,45 110,110"
+                     Fill="Green" FillRule="Nonzero" />-->
+            <!--
+            <Polygon Stroke="Red"
+                     Points="20,20 20,110 80,110 80,5 60,5 60,90 35,40 110,40 110,20"
+                     Fill="Green" FillRule="Nonzero" />-->
+            <!--
+            <Polygon Stroke="Red"
+                     Points="20,20 20,110 80,110 80,5 60,5 60,90 35,40 110,40 110,20"
+                     Fill="Green" FillRule="EvenOdd" />-->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0"
+                                    IsClosed="False">
+                            <PolyLineSegment Points="0,50 50,50"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>-->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="0,0"
+                                    IsClosed="True">
+                            <PolyLineSegment Points="0,50 50,50"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="50,0"
+                                    IsClosed="True">
+                            <ArcSegment Point="50,100"
+                                        Size="50,50"
+                                        SweepDirection="Clockwise" />
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="50,0"
+                                    IsClosed="True">
+                            <ArcSegment Point="50,100"
+                                        Size="50,50"
+                                        SweepDirection="Counterclockwise" />
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="50,100"
+                                    IsClosed="True">
+                            <ArcSegment Point="50,0"
+                                        Size="50,50"
+                                        SweepDirection="Clockwise" />
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="50,100"
+                                    IsClosed="True">
+                            <ArcSegment Point="50,0"
+                                        Size="50,50"
+                                        SweepDirection="Counterclockwise" />
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="80,10"
+                                    IsClosed="True">
+                            <ArcSegment Point="80,90"
+                                        Size="50,50"
+                                        SweepDirection="Clockwise"
+                                        IsLargeArc="False"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Path Stroke="Red">
+                <Path.Data>
+                    <PathGeometry>
+                        <PathFigure StartPoint="80,10"
+                                    IsClosed="True">
+                            <ArcSegment Point="80,90"
+                                        Size="50,50"
+                                        SweepDirection="Counterclockwise"
+                                        IsLargeArc="True"/>
+                        </PathFigure>
+                    </PathGeometry>
+                </Path.Data>
+            </Path>
+            -->
+            <!--
+            <Ellipse Width="100" Height="50"
+                     Fill="Blue"
+                     Stroke="Red" StrokeThickness="5" />
+            -->
+            <!--
+            <Ellipse Width="100" Height="50"
+                     Fill="#0000FF"
+                     Stroke="#FF0000" StrokeThickness="5" />
+            -->
+            <!--
+            <Ellipse Width="100" Height="50"
+                     Fill="#FF0000FF"
+                     Stroke="#FFFF0000" StrokeThickness="5" />
+            -->
+            <!--
+            <Ellipse Width="100" Height="50"
+                     Fill="#880000FF"
+                     Stroke="#88FF0000" StrokeThickness="5" />
+            -->
+            <!--
+            <Ellipse Width="100" Height="50"
+                     Fill="#000000FF"
+                     Stroke="#00FF0000" StrokeThickness="5" />
+            -->
+            <!--
+            <TextBlock Width="100" Height="50"
+                       Text="타원의 뒤에 있는 문자열"
+                       TextWrapping="Wrap"/>
+
+            <Ellipse Width="100" Height="50"
+                     Fill="#880000FF"
+                     Stroke="#88FF0000" StrokeThickness="5" />
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <SolidColorBrush x:Key="strokeBrush" Color="Red"/>
+                </StackPanel.Resources>
+
+                <Ellipse Width="100" Height="50"
+                         Stroke="{StaticResource strokeBrush}"
+                         StrokeThickness="5">
+                    <Ellipse.Fill>
+                        <SolidColorBrush Color="Blue"/>
+                    </Ellipse.Fill>
+                </Ellipse>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <SolidColorBrush x:Key="fillBrush" Color="Blue"/>
+                    <SolidColorBrush x:Key="strokeBrush" Color="Red"/>
+                </StackPanel.Resources>
+
+                <Ellipse Width="100" Height="50"
+                         Fill="{StaticResource fillBrush}"
+                         Stroke="{StaticResource strokeBrush}"
+                         StrokeThickness="5"/>
+            </StackPanel>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0"
+                                         EndPoint="1,1">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="1,1"
+                                         EndPoint="0,0">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0"
+                                         EndPoint="1,0">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,1"
+                                         EndPoint="1,1">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,0"
+                                         EndPoint="0,1">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="1,0"
+                                         EndPoint="1,1">
+                        <GradientStop Color="White" Offset="0"/>
+                        <GradientStop Color="Blue" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <LinearGradientBrush StartPoint="0,1"
+                                         EndPoint="0,0">
+                        <GradientStop Color="Red" Offset="0"/>
+                        <GradientStop Color="Orange" Offset="0.17"/>
+                        <GradientStop Color="Yellow" Offset="0.34"/>
+                        <GradientStop Color="Green" Offset="0.5"/>
+                        <GradientStop Color="Blue" Offset="0.67"/>
+                        <GradientStop Color="Indigo" Offset="0.84"/>
+                        <GradientStop Color="Purple" Offset="1" />
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Rectangle Height="100" Width="100">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Assets/자몽.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Image Source="/Assets/lock.png"/>
+            -->
+            <!--
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Assets/lock.png"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Image Source="https://m.media-amazon.com/images/M/MV5BZDRmNjYwZDktOTYxZi00MTdlLWI5ZjYtYWU4MDE5MDc5NGM3L2ltYWdlXkEyXkFqcGdeQXVyNjQzNDI3NzY@._V1_SX300.jpg"/>
+            -->
+            <!--
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="https://m.media-amazon.com/images/M/MV5BZDRmNjYwZDktOTYxZi00MTdlLWI5ZjYtYWU4MDE5MDc5NGM3L2ltYWdlXkEyXkFqcGdeQXVyNjQzNDI3NzY@._V1_SX300.jpg"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Image Source="/Assets/lock.png" Stretch="None"/>
+            -->
+            <!--
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Assets/lock.png" Stretch="None"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Image Source="/Assets/lock.png" Stretch="Fill"/>
+            -->
+            <!--
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Assets/lock.png" Stretch="Fill"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Image Source="/Assets/lock.png" Stretch="Uniform"/>
+            -->
+            <!--
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Assets/lock.png" Stretch="Uniform"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <Image Source="/Assets/lock.png" Stretch="UniformToFill"
+                   HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            -->
+            <!--
+            <Rectangle>
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Assets/lock.png" Stretch="UniformToFill"
+                                AlignmentX="Center" AlignmentY="Top"/>
+                </Rectangle.Fill>
+            </Rectangle>
+            -->
+            <!--
+            <MediaPlayerElement Source="ms-appx:///Assets/FilmModeDetection.wmv"
+                                AutoPlay="False"
+                                AreTransportControlsEnabled="True"/>
+            -->
+            <!--
+            <MediaPlayerElement MaxWidth="300"
+                                MaxHeight="200"
+                                Source="ms-appx:///Assets/FilmModeDetection.wmv"
+                                AutoPlay="False"
+                                AreTransportControlsEnabled="True"/>
+            -->
+            <!--
+            <MediaPlayerElement MaxWidth="300"
+                                MaxHeight="200"
+                                Source="ms-appx:///Assets/CompletedSound.mp3"
+                                AutoPlay="False"
+                                AreTransportControlsEnabled="True"/>
+            -->
+            <!--
+            <Button x:Name="playFocusSound"
+                    Content="Play Focus Sound"
+                    Tapped="playFocusSound_Tapped"/>
+            -->
+            <!--
+            <WebView Source="https://docs.microsoft.com/ko-kr/windows/uwp" />
+            -->
+            <!--
+            <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="100" Height="100">
+                <Image Source="/Assets/lock.png" Height="100" Width="100">
+                    <interactivity:Interaction.Behaviors>
+                        <behaviors:Fade Value="0"
+                                        Duration="5000"/>
+                    </interactivity:Interaction.Behaviors>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="100" Height="100">
+                <Image Source="/Assets/lock.png" Height="100" Width="100" Opacity="0">
+                    <interactivity:Interaction.Behaviors>
+                        <behaviors:Fade Value="1"
+                                        Duration="5000"/>
+                    </interactivity:Interaction.Behaviors>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border Background="Gray" Width="100" Height="100">
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png" Height="100" Width="100"
+                       Opacity="0"
+                       Loaded="lockImage_Loaded">
+                    <Image.OpacityTransition>
+                        <ScalarTransition Duration="0:0:5"/>
+                    </Image.OpacityTransition>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border Background="Gray" Width="100" Height="100">
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png" Height="100" Width="100"
+                       Opacity="1"
+                       Loaded="lockImage_Loaded">
+                    <Image.OpacityTransition>
+                        <ScalarTransition Duration="0:0:5"/>
+                    </Image.OpacityTransition>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border Background="Gray" Width="100" Height="100">
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png" Height="100" Width="100"
+                       Rotation="0"
+                       Loaded="lockImage_Loaded">
+                    <Image.RotationTransition>
+                        <ScalarTransition Duration="0:0:5"/>
+                    </Image.RotationTransition>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border Background="Gray" Width="100" Height="100">
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png" Height="100" Width="100"
+                       Scale="0,0,0"
+                       Loaded="lockImage_Loaded">
+                    <Image.ScaleTransition>
+                        <Vector3Transition Duration="0:0:5"/>
+                    </Image.ScaleTransition>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border Background="Gray" Width="100" Height="100">
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png" Height="100" Width="100"
+                       Translation="100,100,0"
+                       Loaded="lockImage_Loaded">
+                    <Image.TranslationTransition>
+                        <Vector3Transition Duration="0:0:5"/>
+                    </Image.TranslationTransition>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Button>
+                <ContentPresenter x:Name="animationContentPresenter"
+                                  Width="100" Height="100"
+                                  Content="Blue Button"
+                                  HorizontalContentAlignment="Center"
+                                  VerticalContentAlignment="Center"
+                                  Background="Gray"
+                                  Loaded="animationContentPresenter_Loaded">
+                    <ContentPresenter.BackgroundTransition>
+                        <BrushTransition Duration="0:0:5"/>
+                    </ContentPresenter.BackgroundTransition>
+                </ContentPresenter>
+            </Button>
+            -->
+            <!--
+            <Border>
+                <ContentPresenter x:Name="animationContentPresenter"
+                                    Width="100" Height="100"
+                                    Content="Blue Border"
+                                    HorizontalContentAlignment="Center"
+                                    VerticalContentAlignment="Center"
+                                    Background="Gray"
+                                    Loaded="animationContentPresenter_Loaded">
+                    <ContentPresenter.BackgroundTransition>
+                        <BrushTransition Duration="0:0:5"/>
+                    </ContentPresenter.BackgroundTransition>
+                </ContentPresenter>
+            </Border>
+            -->
+            <!--
+            <Border Background="Gray" Width="100" Height="100">
+                <Border.Resources>
+                    <Storyboard x:Name="lockImageAnimationStoryboard">
+                        <DoubleAnimation Storyboard.TargetName="lockImage"
+                                         Storyboard.TargetProperty="Opacity"
+                                         From="0" To="1"
+                                         Duration="0:0:5"
+                                         RepeatBehavior="Forever" />
+                    </Storyboard>
+                </Border.Resources>
+                
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png"
+                       Height="100" Width="100"
+                       Loaded="lockImage_Loaded">
+                </Image>
+            </Border>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Storyboard x:Name="colorAnimationButtonStoryboard">
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5" />
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Button x:Name="colorAnimationButton"
+                    Width="100" Height="100"
+                    Content="Blue Button"
+                    Loaded="colorAnimationButton_Loaded"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Storyboard x:Name="colorAnimationButtonStoryboard">
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5"
+                                        RepeatBehavior="Forever" AutoReverse="True"/>
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Button x:Name="colorAnimationButton"
+                    Width="100" Height="100"
+                    Content="Blue Button"
+                    Loaded="colorAnimationButton_Loaded"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Storyboard x:Name="colorAnimationButtonStoryboard">
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5"
+                                        RepeatBehavior="3x" AutoReverse="True"/>
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Button x:Name="colorAnimationButton"
+                    Width="100" Height="100"
+                    Content="Blue Button"
+                    Loaded="colorAnimationButton_Loaded"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Storyboard x:Name="colorAnimationButtonStoryboard">
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5"
+                                        RepeatBehavior="0:0:2" AutoReverse="True"/>
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Button x:Name="colorAnimationButton"
+                    Width="100" Height="100"
+                    Content="Blue Button"
+                    Loaded="colorAnimationButton_Loaded"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Storyboard x:Name="colorAnimationButtonStoryboard">
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5"
+                                        RepeatBehavior="0:0:2" AutoReverse="True" FillBehavior="Stop"/>
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Button x:Name="colorAnimationButton"
+                    Width="100" Height="100"
+                    Content="Blue Button"
+                    Loaded="colorAnimationButton_Loaded"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel>
+                <StackPanel.Resources>
+                    <Storyboard x:Name="colorAnimationButtonStoryboard">
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5" SpeedRatio="0.1"
+                                        RepeatBehavior="Forever" AutoReverse="True"/>
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Button x:Name="colorAnimationButton"
+                    Width="100" Height="100"
+                    Content="Blue Button"
+                    Loaded="colorAnimationButton_Loaded"/>
+            </StackPanel>
+            -->
+            <!--
+            <StackPanel x:Name="combinedAnimationStackPanel"
+                        Loaded="combinedAnimationStackPanel_Loaded">
+                <StackPanel.Resources>
+                    <Storyboard x:Name="combinedAnimationStoryboard">
+                        <DoubleAnimation Storyboard.TargetName="lockImage"
+                                         Storyboard.TargetProperty="Opacity"
+                                         From="0" To="1"
+                                         Duration="0:0:5"
+                                         RepeatBehavior="Forever" />
+                        
+                        <ColorAnimation Storyboard.TargetName="colorAnimationButton"
+                                        Storyboard.TargetProperty=
+                                            "(Button.Background).(SolidColorBrush.Color)"
+                                        From="Gray" To="Blue"
+                                        Duration="0:0:5" />
+                    </Storyboard>
+                </StackPanel.Resources>
+
+                <Image x:Name="lockImage"
+                       Source="/Assets/lock.png"
+                       Height="100" Width="100"
+                       HorizontalAlignment="Center">
+                </Image>
+                
+                <Button x:Name="colorAnimationButton"
+                        Width="100" Height="100"
+                        HorizontalAlignment="Center"
+                        Content="Blue Button"/>
+            </StackPanel>
+            -->
+            <!--
+            <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="300" Height="300">
+                <Image x:Name="lockImage" Source="/Assets/lock.png" Height="100" Width="100">
+                    <interactivity:Interaction.Behaviors>
+                        <behaviors:Offset OffsetX="100"
+                                          OffsetY="100"
+                                          Duration="1000"
+                                          EasingMode="EaseIn"/>
+                    </interactivity:Interaction.Behaviors>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="300" Height="300">
+                <Image x:Name="lockImage" Source="/Assets/lock.png" Height="100" Width="100">
+                    <interactivity:Interaction.Behaviors>
+                        <behaviors:Offset OffsetX="-100"
+                                          OffsetY="-100"
+                                          Duration="1000"
+                                          EasingMode="EaseOut"/>
+                    </interactivity:Interaction.Behaviors>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="300" Height="300">
+                <Image x:Name="lockImage" Source="/Assets/lock.png" Height="100" Width="100">
+                    <interactivity:Interaction.Behaviors>
+                        <behaviors:Offset OffsetX="-100"
+                                          OffsetY="0"
+                                          Duration="1000"
+                                          EasingMode="EaseInOut"/>
+                    </interactivity:Interaction.Behaviors>
+                </Image>
+            </Border>
+            -->
+            <!--
+            <StackPanel Orientation="Horizontal">
+                <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="300" Height="300">
+                    <Image Source="/Assets/lock.png" Height="100" Width="100">
+                        <interactivity:Interaction.Behaviors>
+                            <behaviors:Offset OffsetX="100"
+                                          OffsetY="0"
+                                          Duration="1000"
+                                          EasingMode="EaseIn"/>
+                        </interactivity:Interaction.Behaviors>
+                    </Image>
+                </Border>
+
+                <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="300" Height="300">
+                    <Image Source="/Assets/lock.png" Height="100" Width="100">
+                        <interactivity:Interaction.Behaviors>
+                            <behaviors:Offset OffsetX="100"
+                                          OffsetY="0"
+                                          Duration="1000"
+                                          EasingMode="EaseOut"/>
+                        </interactivity:Interaction.Behaviors>
+                    </Image>
+                </Border>
+
+                <Border xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+                    xmlns:behaviors="using:Microsoft.Toolkit.Uwp.UI.Animations.Behaviors"
+                    Background="Gray" Width="300" Height="300">
+                    <Image Source="/Assets/lock.png" Height="100" Width="100">
+                        <interactivity:Interaction.Behaviors>
+                            <behaviors:Offset OffsetX="100"
+                                          OffsetY="0"
+                                          Duration="1000"
+                                          EasingMode="EaseInOut"/>
+                        </interactivity:Interaction.Behaviors>
+                    </Image>
+                </Border>
+            </StackPanel>
+            -->
+            <!--
+            <Border Background="Gray" Width="300" Height="300">
+                <Image x:Name="lockImage" Source="/Assets/lock.png" Height="100" Width="100"
+                       Loaded="lockImage_Loaded"/>
+            </Border>
+            -->
+            <!--
+            <StackPanel Orientation="Horizontal">
+                <StackPanel Orientation="Vertical" Name="buttonsStackPanel">
+                    <Button Name="button1">Button 1</Button>
+                    <Button Name="button2">Button 2</Button>
+                    <Button Name="button3">Button 3</Button>
+                    <Button Name="button4">Button 4</Button>
+                </StackPanel>
+
+                <ParallaxView Source="{x:Bind sampleList}" VerticalShift="50">
+                    <Image x:Name="backgroundImage" Source="Assets/lock.png" Stretch="UniformToFill"/>
+                </ParallaxView>
+
+                <ListView x:Name="sampleList" Width="300" Background="{ThemeResource SystemControlAcrylicElementBrush}">
+                    <ListView.Resources>
+                        <SymbolIconSource x:Key="ReplyIcon" Symbol="MailReply"/>
+                        <SymbolIconSource x:Key="DeleteIcon" Symbol="Delete"/>
+                        <SymbolIconSource x:Key="PinIcon" Symbol="Pin"/>
+
+                        <SwipeItems x:Key="RevealOptions" Mode="Reveal">
+                            <SwipeItem Text="Reply" IconSource="{StaticResource ReplyIcon}"/>
+                            <SwipeItem Text="Pin" IconSource="{StaticResource PinIcon}"/>
+                        </SwipeItems>
+
+                        <SwipeItems x:Key="ExecuteDelete" Mode="Execute">
+                            <SwipeItem Text="Delete" IconSource="{StaticResource DeleteIcon}"
+                   Background="Red"/>
+                        </SwipeItems>
+                    </ListView.Resources>
+
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                            <Setter Property="VerticalContentAlignment" Value="Stretch"/>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="x:String">
+                            <SwipeControl x:Name="ListViewSwipeContainer"
+                          LeftItems="{StaticResource RevealOptions}"
+                          RightItems="{StaticResource ExecuteDelete}"
+                          Height="60">
+                                <StackPanel Orientation="Vertical">
+                                    <TextBlock Text="{x:Bind}" FontSize="18"/>
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="항목을 Swipe하세요..." FontSize="12"/>
+                                    </StackPanel>
+                                </StackPanel>
+                            </SwipeControl>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <x:String>Item 1</x:String>
+                    <x:String>Item 2</x:String>
+                    <x:String>Item 3</x:String>
+                    <x:String>Item 4</x:String>
+                    <x:String>Item 5</x:String>
+                    <x:String>Item 6</x:String>
+                    <x:String>Item 7</x:String>
+                    <x:String>Item 8</x:String>
+                    <x:String>Item 9</x:String>
+                    <x:String>Item 10</x:String>
+                </ListView>
+
+                <StackPanel Orientation="Vertical">
+                    <Button Background="{ThemeResource SystemControlAcrylicWindowBrush}">SystemControlAcrylicWindowBrush</Button>
+                    <Button Background="{ThemeResource SystemControlAcrylicElementBrush}">SystemControlAcrylicElementBrush</Button>
+                    <Button Background="{ThemeResource SystemControlAccentAcrylicElementAccentMediumHighBrush}">SystemControlAccentAcrylicElementAccentMediumHighBrush</Button>
+                </StackPanel>
+
+
+            </StackPanel>
+            -->
+        </Grid>
+    </Grid>
+</Page>

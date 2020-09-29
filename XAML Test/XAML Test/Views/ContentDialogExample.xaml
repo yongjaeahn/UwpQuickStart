@@ -1,0 +1,28 @@
+﻿<ContentDialog
+    x:Class="XAML_Test.Views.ContentDialogExample"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XAML_Test.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    
+    Title="전송"
+    PrimaryButtonText="Yes"
+    SecondaryButtonText="No"
+    CloseButtonText="Cancel">
+
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <AppBarButton Icon="Save" Label="Save"/>
+                <StackPanel>
+                    <TextBlock Text="작업한 내역을 저장하시겠습니까?"/>
+                    <TextBlock Text="작업한 내역들은 회사의 기밀사항들을 포함하고 있으니 파일의 보안에 유의하시기 바랍니다."
+                       Foreground="Red"
+                       FontSize="10" />
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</ContentDialog>
