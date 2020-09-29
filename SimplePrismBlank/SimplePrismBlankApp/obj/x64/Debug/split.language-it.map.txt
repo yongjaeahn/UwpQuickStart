@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-it"
+"ResourceDimensions"		"language-it-it"
+
+[Files]
+"C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlank\SimplePrismBlankApp\obj\x64\Debug\split.language-it.pri"			"resources.pri"

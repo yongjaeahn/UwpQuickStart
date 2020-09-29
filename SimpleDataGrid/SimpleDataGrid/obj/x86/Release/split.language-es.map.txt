@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-es"
+"ResourceDimensions"		"language-es-es"
+
+[Files]
+"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\split.language-es.pri"			"resources.pri"

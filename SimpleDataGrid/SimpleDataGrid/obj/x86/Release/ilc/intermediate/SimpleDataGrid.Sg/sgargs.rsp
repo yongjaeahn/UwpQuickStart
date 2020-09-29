@@ -1,0 +1,12 @@
+﻿/ref:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\00320811\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.2.7-rel-27913-00\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\00320811\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\x86\ilc\lib\Private\\"
+/ref:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\in"
+/ref:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\00320811\.nuget\packages\microsoft.net.native.compiler\2.2.7-rel-27913-00\tools\csc"
+/out:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\intermediate\SimpleDataGrid.Sg"
+"@C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\ilc\intermediate\SimpleDataGrid.Sg\ComputedSerializationInput.txt"

@@ -1,0 +1,17 @@
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\bin\Release\netstandard2.0\SimpleDataGrid.Core.deps.json
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\bin\Release\netstandard2.0\SimpleDataGrid.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\bin\Release\netstandard2.0\SimpleDataGrid.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.AssemblyInfoInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.AssemblyInfo.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\bin\Release\netstandard2.0\SimpleDataGrid.Core.deps.json
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\bin\Release\netstandard2.0\SimpleDataGrid.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\bin\Release\netstandard2.0\SimpleDataGrid.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.AssemblyInfoInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.AssemblyInfo.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.csproj.CoreCompileInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid.Core\obj\Release\netstandard2.0\SimpleDataGrid.Core.pdb

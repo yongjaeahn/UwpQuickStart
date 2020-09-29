@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CCGmFwS8I6G+AkBQPIjFfLINRACJUEfEbxSP6uSnLATdiOMS/FjbH/MAp5tLvaotwjE2ZWQ9Tr0RFH+Jupo3eA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\00320811\\source\\repos\\코드로 배우는 UWP 프로그래밍 기본기\\SimplePrismBlank\\SimplePrismBlankApp.Core\\SimplePrismBlank.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\00320811\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\00320811\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

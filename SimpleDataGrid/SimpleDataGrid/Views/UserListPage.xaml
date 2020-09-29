@@ -1,0 +1,83 @@
+﻿<Page
+    x:Class="SimpleDataGrid.Views.UserListPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Style="{StaticResource PageStyle}"
+    xmlns:prismMvvm="using:Prism.Windows.Mvvm"
+    prismMvvm:ViewModelLocator.AutoWireViewModel="True" 
+    xmlns:model="using:SimpleDataGrid.Core.Models"
+    mc:Ignorable="d">
+    <Grid x:Name="ContentArea" Margin="{StaticResource SmallLeftRightMargin}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Grid.Row="0"
+            x:Uid="UserList_Title"
+            Margin="{StaticResource SmallLeftMargin}"
+            Style="{StaticResource PageTitleStyle}" />
+        <Grid Grid.Row="1">
+            <!-- UserListPage.xaml -->
+            <StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <CheckBox x:Name="northernHemisphereCheckBox"
+                              Content="북반구 사용자"
+                              Click="northernHemisphereCheckBox_Click"/>
+
+                    <CheckBox x:Name="southernHemisphereCheckBox"
+                              Content="남반구 사용자"
+                              Margin="5 0 0 0"
+                              Click="southernHemisphereCheckBox_Click"/>
+                </StackPanel>
+
+                <controls:DataGrid
+                    x:Name="userList"
+                    AutoGenerateColumns="False"
+                    GridLinesVisibility="Horizontal"
+                    ItemsSource="{x:Bind ViewModel.users, Mode=OneWay}"
+                    IsTabStop="False"
+                    SelectionChanged="userList_SelectionChanged"
+                    CanUserSortColumns="True"
+                    Sorting="userList_Sorting">
+
+                    <controls:DataGrid.Columns>
+                        <!--
+                        TODO WTS:
+                        Remove this column definitions and define columns for your data.
+                        Consider adding header properties to Resources.resw
+                        -->
+                        <!--
+                        <controls:DataGridTextColumn Binding="{Binding OrderID}" Header="OrderID" />
+                        <controls:DataGridTextColumn Binding="{Binding OrderDate}" Header="OrderDate" />
+                        <controls:DataGridTextColumn Binding="{Binding Company}" Header="Company" />
+                        <controls:DataGridTextColumn Binding="{Binding ShipTo}" Header="ShipTo" />
+                        <controls:DataGridTextColumn Binding="{Binding OrderTotal}" Header="OrderTotal" />
+                        <controls:DataGridTextColumn Binding="{Binding Status}" Header="Status" />
+                        <controls:DataGridTemplateColumn Header="Symbol">
+                            <controls:DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate x:DataType="model:SampleOrder">
+                                    <FontIcon
+                                        Margin="{StaticResource SmallLeftRightMargin}"
+                                        HorizontalAlignment="Left"
+                                        FontFamily="{ThemeResource SymbolThemeFontFamily}"
+                                        Glyph="{x:Bind Symbol}" />
+                                </DataTemplate>
+                            </controls:DataGridTemplateColumn.CellTemplate>
+                        </controls:DataGridTemplateColumn>
+                        -->
+                        <controls:DataGridTextColumn Binding="{Binding id}" Header="사용자ID" IsReadOnly="True"/>
+                        <controls:DataGridTextColumn Binding="{Binding name}" Header="이름" IsReadOnly="True"/>
+                        <controls:DataGridTextColumn Binding="{Binding company.name}" Header="회사" IsReadOnly="True"/>
+                        <controls:DataGridTextColumn Binding="{Binding address.city}" Header="도시" IsReadOnly="True"/>
+                        <controls:DataGridTextColumn Binding="{Binding address.geo.lat}" Header="위도" IsReadOnly="True"/>
+                    </controls:DataGrid.Columns>
+                </controls:DataGrid>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>

@@ -1,0 +1,8 @@
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\bin\Debug\netstandard2.0\SimplePrismBlankApp.Core.deps.json
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\bin\Debug\netstandard2.0\SimplePrismBlankApp.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\bin\Debug\netstandard2.0\SimplePrismBlankApp.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\obj\Debug\netstandard2.0\SimplePrismBlankApp.Core.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\obj\Debug\netstandard2.0\SimplePrismBlankApp.Core.AssemblyInfoInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\obj\Debug\netstandard2.0\SimplePrismBlankApp.Core.AssemblyInfo.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\obj\Debug\netstandard2.0\SimplePrismBlankApp.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlankApp\SimplePrismBlankApp.Core\obj\Debug\netstandard2.0\SimplePrismBlankApp.Core.pdb

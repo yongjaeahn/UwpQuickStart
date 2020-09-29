@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "70NVSJ1VJ7PY1qUpA2RsLDucYC5qOrZ6pcp8yunhnNlVXoJqUgg1uE+yO9lzF13YVshltusn3MNqyp6YSi+Xug==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\00320811\\source\\repos\\코드로 배우는 UWP 프로그래밍 기본기\\Hello UWP World\\Hello UWP World.Core\\Hello UWP World.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\00320811\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\00320811\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\00320811\\.nuget\\packages\\newtonsoft.json\\12.0.2\\newtonsoft.json.12.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

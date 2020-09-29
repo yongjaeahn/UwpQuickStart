@@ -1,0 +1,3 @@
+MainPackage=C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlank\SimplePrismBlankApp\bin\ARM\Debug\SimplePrismBlank_1.0.0.0_ARM_Debug.appx
+SymbolPackage=C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlank\SimplePrismBlankApp\obj\ARM\Debug\Symbols\SimplePrismBlank_1.0.0.0_ARM_Debug.appxsym
+ResourcePack=C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlank\SimplePrismBlankApp\bin\ARM\Debug\SimplePrismBlank_1.0.0.0_language-ko.appx

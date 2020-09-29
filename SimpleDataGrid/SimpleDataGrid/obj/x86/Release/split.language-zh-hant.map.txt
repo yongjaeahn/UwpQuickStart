@@ -1,0 +1,6 @@
+﻿[ResourceMetadata]
+"ResourceId"			"split.language-zh-hant"
+"ResourceDimensions"		"language-zh-tw"
+
+[Files]
+"C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x86\Release\split.language-zh-hant.pri"			"resources.pri"

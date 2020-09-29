@@ -1,0 +1,2 @@
+System.Linq.Dynamic.Core, Version=1.0.23.0, Culture=neutral, PublicKeyToken=0f07ec44de6ac832
+  System.Linq.Dynamic.Core.xml

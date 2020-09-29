@@ -1,0 +1,1 @@
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimplePrismBlank\SimplePrismBlankApp\AppPackages\SimplePrismBlank_1.0.0.0_Debug_Test\SimplePrismBlank_1.0.0.0_x64_Debug.appxbundle

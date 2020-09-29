@@ -1,0 +1,193 @@
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\App.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\Page.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\_Colors.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\_FontSizes.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\_Thickness.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\TextBlock.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Views\UserDetailPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Views\UserListPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.xr.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.exe
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\resources.pri
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\AppxManifest.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Core\SimpleDataGrid.exe
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.build.appxrecipe
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactions.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactivity.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Prism.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Prism.Unity.Windows.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Prism.Windows.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\System.Runtime.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\System.Linq.Dynamic.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\System.Linq.Dynamic.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.Unity.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.g.i.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.g.i.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.g.i.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\Page.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Colors.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_FontSizes.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Thickness.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\TextBlock.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\Page.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Colors.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_FontSizes.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Thickness.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\TextBlock.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.csproj.CopyComplete
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Xaml.Interactions.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Prism.Unity.Windows.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Prism.Windows.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\System.Linq.Dynamic.Core.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Practices.Unity.RegistrationByConvention.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.exe
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Practices.ServiceLocation\en-US\Microsoft.Practices.ServiceLocation.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Prism\en\Prism.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Practices.Unity\en\Microsoft.Practices.Unity.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\priconfig.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\pri.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\qualifiers.txt
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.en.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.en.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636884986160000000.json
+C:\Users\00320811\source\repos\코드로 배우는 UWP App 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.xr.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\App.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\Page.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\_Colors.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\_FontSizes.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\_Thickness.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Styles\TextBlock.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Views\UserDetailPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Views\UserListPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.xr.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.exe
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactions.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactions.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactivity.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Xaml.Interactivity.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Newtonsoft.Json.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Prism.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Prism.Unity.Windows.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Prism.Windows.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\System.Runtime.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\System.Linq.Dynamic.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\System.Linq.Dynamic.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.Unity.RegistrationByConvention.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.Practices.Unity.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Microsoft.UI.Xaml.Markup.winmd
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.Core.dll
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.Core.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.csprojAssemblyReference.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.g.i.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.g.i.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.g.i.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\XamlTypeInfo.g.cs
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\Page.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Colors.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_FontSizes.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Thickness.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\TextBlock.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.xaml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\App.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\Page.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Colors.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_FontSizes.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\_Thickness.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Styles\TextBlock.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserDetailPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Views\UserListPage.xbf
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\XamlSaveStateFile.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.csproj.CoreCompileInputs.cache
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.csproj.CopyComplete
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Xaml.Interactions.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Xaml.Interactivity.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Prism.Unity.Windows.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Prism.Windows.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\System.Linq.Dynamic.Core.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Practices.Unity.RegistrationByConvention.pri.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.exe
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\SimpleDataGrid.pdb
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\resources.pri
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\AppxManifest.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Core\AppxManifest.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\Core\SimpleDataGrid.exe
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\x64\Debug\SimpleDataGrid.build.appxrecipe
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\ResourceHandlingTask.state
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Practices.ServiceLocation\en-US\Microsoft.Practices.ServiceLocation.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Toolkit.Uwp.UI.Controls.DataGrid\en-US\Microsoft.Toolkit.Uwp.UI.Controls.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Prism\en\Prism.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\Microsoft.Practices.Unity\en\Microsoft.Practices.Unity.Properties.Resources.resw
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\priconfig.xml
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\priconfig.xml.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\unfiltered.layout.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\unfiltered.layout.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\filtered.layout.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\filtered.layout.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\excluded.layout.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\excluded.layout.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\pri.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\pri.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\qualifiers.txt
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\qualifiers.txt.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.en.resfiles
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\resources.en.resfiles.intermediate
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\ProjectArchitectures.txt
+C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\obj\x64\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636884986160000000.json

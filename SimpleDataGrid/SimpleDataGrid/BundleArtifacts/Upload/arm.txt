@@ -1,0 +1,2 @@
+MainPackage=C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\ARM\Release\Upload\SimpleDataGrid_1.0.0.0_ARM.appx
+SymbolPackage=C:\Users\00320811\source\repos\코드로 배우는 UWP 프로그래밍 기본기\SimpleDataGrid\SimpleDataGrid\bin\ARM\Release\Upload\SimpleDataGrid_1.0.0.0\SimpleDataGrid_1.0.0.0_ARM.appxsym
